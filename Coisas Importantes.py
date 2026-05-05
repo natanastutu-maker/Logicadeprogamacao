@@ -13,6 +13,13 @@ import random
 # truques de lista
 # .append:
 # for, in:
+# for i in 
+# for in range
+# (len
+
+# list compreheision
+#numeros2 = [n * 2 if n>20 else n for n in numeros2]
+#print (numeros2)
 
 #{}: Valor 
 # Ex: {"Chave" : "Valor"} 
