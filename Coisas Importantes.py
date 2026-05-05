@@ -13,3 +13,11 @@ import random
 # truques de lista
 # .append:
 # for, in:
+
+#{}: Valor 
+# Ex: {"Chave" : "Valor"} 
+#" Professor":{"1", "Professor" 
+# "2", "Dev"}
+
+#Tupla
+# Variável50 = (20), deve estar em parênteses, formando uma constante
