@@ -4,14 +4,14 @@ carros = []
 proximo_id = 1
 
 os.system(cls)
-while True
-print ("=====Sistema de Carros 🚗=====")
-print (' 1 - Cadastrar carro')
+while True:
+    print (' 1 - Cadastrar carro')
     print (' 2 - Lista carros')
     print (' 3 - Atualizar carro')
     print (' 4 - Deletar carro')
     print ('0 - Sair')
-opcao = input ('Escolha uma opção: ')
+    
+    opcao = input ('Escolha uma opção: ')
 # criar
 if opcao == '1':
     modelo = input ("Digite o modelo do preço: ").title()
@@ -47,3 +47,4 @@ for carro in carros:
     carro['modelo'] = novo_modelo
     carro['preco'] = novo_preco
     carro['marca'] = no
+
