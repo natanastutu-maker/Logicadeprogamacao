@@ -1,5 +1,11 @@
 carros = []
 proximo_id = 1
+carro = {
+        "id": proximo_id,
+       "marca": marca,
+       "preço": preço,
+       "modelo": modelo
+}
 while True:
     print("============ MENU ===========")
     print("1. Cadastrar carro")
@@ -15,30 +21,23 @@ while True:
         modelo = input("Digite o modelo do carro: ").title()
 
         
-
-
-        carro = {
-            "id": proximo_id,
-            "marca": marca,
-            "preço": preço,
-            "modelo": modelo
-        }
    
 
 
-        proximo_id += 1
-         
-    with open('cadastro.txt', "w") as arquivo:
+        
+
+
+      with open('cadastro.txt', "w") as arquivo:
         for f in carros:
             arquivo.write(+ '\n')
-    print("Carro cadastrado com sucesso!")
+            print("Carro cadastrado com sucesso!")
 
  #LISTAR
     elif input_usuario == "2":
-        if not carros:
-            print("Nenhum carro cadastrado.")
+    if not carros:
+        print("Nenhum carro cadastrado.")
     else:
-         print("Carros cadastrados:")
+         print("Carros cadastrados: ")
     
     for carro in carros:
             with open('cadastro.txt', 'r') as arquivo:
@@ -47,15 +46,15 @@ while True:
                 print (infor)
     
     # ATUALIZAR
-    elif input_usuario == '3':
-        ...
+      elif input_usuario == '3':
+    
 
     # DELETE
-    elif input_usuario == '4':
-        print('\n Lista de carros')
+      elif input_usuario == '4':
+         print('\n Lista de carros')
         print(f'ID: {carro['id']} | Modelo: {carro['modelo']} | Preço: {carro['preço']} | Marca: {carro['marca']}')
     
     # SAIR
     elif input_usuario == "0":
-        print("Saindo do sistema...")
-        break
+    print("Saindo do sistema...") 
+    break

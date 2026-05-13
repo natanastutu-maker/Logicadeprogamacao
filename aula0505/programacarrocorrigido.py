@@ -6,11 +6,11 @@ while True:
     print("2. Listar carros")
     print("3. editar carro")
     print("4. Excluir carro")
-    print("0. Sair")
+    print("0. Sair") 
     input_usuario = int(input("Digite a opção desejada: "))
    
     opcao = int(input("Digite a opção desejada: "))
-    #CRIAR
+#CRIAR
     if input_usuario == "1":
         marca = input("Digite a marca do carro: ").title()
         preço = float(input("Digite o preço do carro: "))

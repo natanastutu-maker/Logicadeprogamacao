@@ -28,3 +28,9 @@ import random
 
 #Tupla
 # Variável50 = (20), deve estar em parênteses, formando uma constante
+
+# Truques de Boolean
+# match (variável):
+# ex: case '1':
+#        execução de função
+# case _ : = default ou função sem ser específica

@@ -33,7 +33,7 @@ for i in range(5, 0, -1):
     print (f'Contagem regressiva' [i])
     i -=1
     
-print ("O nome sorteado foi: ",[nome_sorteado])
+print ("O nome sorteado foi: ", [nome_sorteado])
  
 sortear_novamente = input ('Deseja sortear outro nome? (s - Sim)| (n - Não)')
 if sortear_novamente == nome:
